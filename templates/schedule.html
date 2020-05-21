@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        {% for i in array %} Name:{{i.confName}}<br />
+        Date: {{i.confStartDate}}<br />
+        City:{{i.city}}<br />
+        State:{{i.state}} <br />
+        Country: {{i.country}}<br />
+        EntryType:{{i.entryType}}<br />
+
+        <a href="{{i.confRegUrl}}">{{i.confRegUrl}}</a><br /><br />
+        {% endfor %}
+    </body>
+</html>

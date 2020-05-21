@@ -2,4 +2,4 @@
 
 1. go to the project folder
 2. run python manage.py migrate 
-3. then python manage.py runserve
+3. then python manage.py runserver
